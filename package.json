@@ -1,0 +1,23 @@
+{
+	"name": "theme-coral",
+	"displayName": "Coral Theme",
+	"description": "Coral Theme for Visual Studio Code",
+	"version": "1.0.0",
+	"publisher": "thomaspink",
+	"repository": "https://github.com/thomaspink/vscode-coral-theme",
+	"engines": {
+		"vscode": "*"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Coral",
+				"uiTheme": "vs-dark",
+				"path": "./themes/coral.json"
+			}
+		]
+	}
+}

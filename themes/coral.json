@@ -1,0 +1,121 @@
+{
+	"$schema": "vscode://schemas/color-theme",
+	"name": "Coral Theme",
+	"colors": {
+		"editor.background": "#222930",
+		"editor.foreground": "#F4F4F4",
+		"editorLineNumber.foreground": "#767676",
+		"editorIndentGuide.background": "#767676",
+		"editorBracketMatch.background": "#293136",
+		"editorBracketMatch.border": "#767676",
+		"editor.lineHighlightBackground": "#262e35",
+		"focusBorder": "#767676",
+
+		// Activitybar
+		"activityBar.background": "#1b2125",
+
+		// Sidebar
+		"sideBar.background": "#222930",
+		"sideBar.foreground": "#F4F4F4",
+		"sideBar.border": "#767676",
+		"sideBarTitle.foreground": "#24292e",
+		"sideBarSectionHeader.background": "#222930",
+		"sideBarSectionHeader.foreground": "#F4F4F4",
+
+		// Statusbar
+		"statusBar.background": "#1b2125",
+		"statusBar.foreground": "#c5c5c5",
+		"statusBar.border": "#1b2125",
+		"statusBar.noFolderForeground": "#24292e",
+		"statusBar.noFolderBackground": "#fafbfc",
+		"statusBar.debuggingForeground": "#24292e",
+		"statusBar.debuggingBackground": "#fafbfc",
+
+		// Notification
+		"notification.background": "#53B0FF"
+	},
+	"tokenColors": [
+		{
+			"scope": "emphasis",
+			"settings": {
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"scope": "strong",
+			"settings": {
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"scope": "comment",
+			"settings": {
+				"foreground": "#b9b9b9"
+			}
+		},
+		{
+			"scope": "string",
+			"settings": {
+				"foreground": "#d0e1e9"
+			}
+		},
+		{
+			"scope": [
+				"entity.name.type",
+				"entity.name.function",
+				"support.function",
+				"constant.numeric",
+				"constant.numeric",
+				"punctuation.decorator",
+				"meta.decorator meta.brace.round"
+			],
+			"settings": {
+				"foreground": "#63a7e2"
+			}
+		},
+		{
+			"scope": [
+				"support.type.primitive",
+				"punctuation.definition.tag.begin",
+				"punctuation.definition.tag.end",
+				"text.html entity.name.tag",
+				"source.css entity.name.tag"
+			],
+			"settings": {
+				"foreground": "#92da92"
+			}
+		},
+		{
+			"scope": [
+				"meta.var.expr storage.type",
+				"meta.method.declaration storage.type",
+				"keyword.control",
+				"keyword.operator",
+				"storage.type.function",
+				"storage.type.class",
+				"storage.type.interface",
+				"storage.type.type",
+				"storage.modifier",
+				"variable.language.this",
+				"constant.language.null",
+				"variable.scss",
+				"source.css entity.name.tag.reference",
+				"entity.other.attribute-name.pseudo-class"
+			],
+			"settings": {
+				"foreground": "#ACA8FE"
+			}
+		},
+		{
+			"scope": [
+				// "variable.parameter",
+				"text.html entity.other.attribute-name",
+				"source.css entity.other.attribute-name.class",
+				"source.css meta.attribute-selector"
+			],
+			"settings": {
+				"foreground": "#FFC42A"
+			}
+		}
+	]
+}
